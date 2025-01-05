@@ -1,12 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+.plans-para {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 144.523%;
+    width: 523px;
+    align-self: center;
+}
+
 .header-anchor {
     text-decoration: none;
     color: #FFF;
+}
+
+.small-para {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 .gapper {
@@ -18,6 +38,10 @@
 
 .color-gray {
     color: #7A7A7A;
+}
+
+.third-color-gray {
+    color: #535862;
 }
 
 .sec-color-gray {
@@ -50,6 +74,16 @@
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
+}
+
+.review-para {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-underline-position: from-font;
 }
 
 .medium-para {
@@ -183,7 +217,7 @@ h1 {
     flex-direction: column;
 }
 
-.for-gap {
+.for-gap, .review-container {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -212,3 +246,405 @@ h1 {
     height: 167px;
 }
 
+.wall-of-love {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+} 
+
+.wall-of-love-header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 768px;
+    width: 100%;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.reviews {
+    display: flex;
+    gap: 24px;
+}
+
+.left-review {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 12px;
+    background: #191919;
+    max-width: 508px;
+}
+
+.left-review-gap {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.stars {
+    width: 116px;
+}
+
+.personal-review {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.avatar {
+    width: 48px;
+}
+
+.personal-review-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-review-name-gap {
+    display: flex;
+    gap: 4px;
+}
+
+.sub-container {
+    border-radius: 16px;
+    gap: 32px;
+    background: #191919;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-container-header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sub-input {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.sub-input-button {
+    max-width: 480px;
+    display: flex;
+    gap: 16px;
+    align-self: center;
+}
+
+.sub-button {
+    width: 126px;
+    height: 48px;
+    padding: 12px 24px;
+    border-radius: 12px;
+    background: #FF371A;
+    border: none;
+}
+
+input {
+    width: 338px;
+    height: 48px;
+    padding: 12px 14px;
+    border: 1px solid #7A7A7A;
+    background: #0B0B0E;
+    border-radius: 8px;
+}
+
+.plan-offers-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.plan-offers-header {
+    display: flex;
+    gap: 40px;
+}
+
+.plans-hero-text {
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 485px;
+    height: 108px;
+}
+
+.plans {
+    display: flex;
+    gap: 24px;
+}
+
+.plan-content {
+    padding: 38px;
+    max-width: 335px;
+    width: 100%;
+    background: #191919;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.plan-content-header {
+    display: flex;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.plan-price {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    max-width: 125px;
+    width: 100%;
+}
+
+.plan-font {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.plan-price-font {
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+
+.plan-content-header-para {
+    display: flex;
+    align-self: center;
+    max-width: 122px;
+    width: 100%;
+}
+
+.plan-content-gap {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.line {
+    width: 304px;
+    height: 1px;
+    background: #888;
+    display: flex;
+    align-self: center;
+}
+
+.plan-content-list-gap {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.plan-lists {
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-list-content {
+    display: flex;
+    gap: 12px;
+}
+
+.plan-list-content-para {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 260%;
+}
+
+.gap-for-button {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.buy-now-button {
+    width: 100%;
+    padding: 20px 75px 21px 75px;
+    border: 1.5px solid #FF371A;
+    background: #FF371A;
+}
+
+.Popular {
+    background: #FF371A;
+    width: 100px;
+    padding: 5px 12px 6px 12px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;    
+}
+
+.middle-plan {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buy-now-button-black {
+    width: 100%;
+    padding: 20px 75px 21px 75px;
+    border: 1.5px solid #FF371A;
+    background: #191919;
+}
+
+button {
+    cursor: pointer;
+}
+
+.about-plans {
+    display: flex;
+    gap: 82px;
+}
+
+.Affordable-price-container {
+    display: flex;
+    gap: 13px;
+    max-width: 479px;
+}
+
+.Affordable-price-container-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Affordable-header {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+
+.Affordable-para {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.big-tick {
+    align-self: flex-start;
+}
+
+.gapper-for-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 125px;
+    background: #0B0B0E;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    justify-self: center;
+    padding: 0 200px;
+}    
+
+.footer-first-stage {
+    display: flex;
+    gap: 24px;
+}
+
+.logo-supporting-text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 320px;
+}
+
+.footer-logo {
+    width: 180px;
+}
+
+.footer-para {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.ratings-badge {
+    width: 142.2px;
+}
+
+.footer-lists-container {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 176px;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.list-header {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.list-with-badge {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.footer-social {
+    display: flex;
+    gap: 32px;
+    padding-bottom: 32px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 24px;
+}
